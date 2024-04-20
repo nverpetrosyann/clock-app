@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 191, 191);
+}
+
+.container {
+    border: 2px solid black;
+    width: 400px;
+    margin: 70px auto;
+    height: 450px;
+    border-radius: 15px;
+    
+}
+
+.hour {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    margin: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    font-size: 60px;
+    border-bottom: 1px solid rgb(204, 45, 45);
+}
+
+.hour p {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(236, 27, 27);
+}
+
+#hour-date {
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(236, 27, 27);
+
+}
+
+
+
+
+
+
+
+
